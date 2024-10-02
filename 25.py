@@ -4,16 +4,21 @@ class Animal:
     def __init__(self,name):
         self.name=name
     def speak(self):
+        
         print("animal sound")
 class Dog(Animal):
     def speak(self):
         print("Woof!")
 class Cat(Animal):
+    
     def speak(self):
         print("Meow!")
+        
 animal1 =Animal("Animal")
+
 dog1 =Dog("Buddy")
 cat1 =Cat("Whiskers")
+
 animal1.speak()
 dog1.speak()
 cat1.speak()
